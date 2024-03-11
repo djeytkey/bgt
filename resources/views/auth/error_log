@@ -1,0 +1,4 @@
+[09-Mar-2024 20:10:07 UTC] PHP Fatal error:  Uncaught Error: Class "DB" not found in /home/bota2375/app.bougteba.com/resources/views/auth/register.blade.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/bota2375/app.bougteba.com/resources/views/auth/register.blade.php on line 1

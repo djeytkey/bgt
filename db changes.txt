@@ -1,0 +1,56 @@
++--------------------------------------------+
+| Catalog Diff Report                        |
++--------------------------------------------+
+Table `magas_server`.`referrals` was created
+  columns:
+  - id of type INT
+  - referral_user_id of type INT
+  - referral_id of type INT
+  - montant of type DOUBLE
+  - status of type INT
+  - created_at of type TIMESTAMP
+  - updated_at of type TIMESTAMP
+  __
+  indices:
+  - PRIMARY with columns: id
+  __
+  attributes:
+  - engine: InnoDB
+  - next auto increment: 10
+  - default character set: utf8mb4
+  - default collate: utf8mb4_unicode_ci
+  __
+Table `magas_server`.`withdraw_referrals` was created
+  columns:
+  - id of type INT
+  - referral_user_id of type INT
+  - referral_id of type INT
+  - facture_no of type VARCHAR
+  - status of type INT
+  - withdraw_amount of type VARCHAR
+  - created_at of type TIMESTAMP
+  - updated_at of type TIMESTAMP
+  __
+  indices:
+  - PRIMARY with columns: id
+  __
+  attributes:
+  - engine: InnoDB
+  - next auto increment: 7
+  - default character set: utf8mb4
+  - default collate: utf8mb4_unicode_ci
+  __
+Table `magas_server`.`gains` was modified
+  columns:
+  - added column total_referral of type DOUBLE
+  __
+Table `magas_server`.`general_settings` was modified
+  columns:
+  - added column referral of type DOUBLE
+  __
+Table `magas_server`.`users` was modified
+  columns:
+  - added column referral of type INT(11)
+  __
+----------------------------------------------
+End of MySQL Workbench Report

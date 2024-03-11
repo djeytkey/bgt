@@ -1,0 +1,51 @@
+{
+  "name": "Bougteba",
+  "short_name": "Bougteba",
+  "start_url": "/",
+  "background_color": "#fff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "status_bar": "black",
+  "icons": [
+    {
+      "src": "public/logo/favicon.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "public/logo/favicon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "public/logo/favicon.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "public/logo/favicon.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "public/logo/favicon.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "public/logo/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/logo/favicon.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "public/logo/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
